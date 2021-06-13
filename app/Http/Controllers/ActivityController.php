@@ -23,6 +23,7 @@ class ActivityController extends Controller
         $activity = new Activity();
         $activity->name = $name;
         $activity->save();
+
         return redirect('/กิจกรรม');
     }
 
